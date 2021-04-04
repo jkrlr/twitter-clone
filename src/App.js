@@ -1,11 +1,13 @@
 import React from "react";
+import Sidebar from "./Sidebar";
+
 import "./App.css";
 
 function App() {
   return (
     // BEM
     <div className="app">
-      <h1>Hey Jitendra... Let's build a twitter clone!</h1>
+      <Sidebar />
     </div>
   );
 }
